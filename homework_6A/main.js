@@ -52,9 +52,8 @@ function show() {
 
 
 //Adding event listener to the cart button in the detail page.
-var button = document.getElementsByClassName('cartButton');
+var button = document.getElementsByClassName('cartButton')[0];
 button.addEventListener("click", addToCart);
-
 //Function for adding the item to the shopping cart.
 function addToCart(event) {
   //Gathering the shopping item information
