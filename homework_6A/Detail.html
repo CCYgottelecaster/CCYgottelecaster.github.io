@@ -1,0 +1,238 @@
+<!--
+	Reference of button tags: https://www.runoob.com/tags/tag-button.html
+	Code for displaying: https://www.jd.com/2017
+-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>Cat Backpack</title>
+    <!-- style -->
+    <link rel="stylesheet" href="css/homepage.css">
+    <!-- javascript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="main.js" async></script>
+  </head>
+
+  <body>
+    <div class="header" style="background-color:#59697e;float:top;">
+      <div class="realHeader">
+        <div class="logo">
+          <div class="wrapLogo">
+          <h1>MUDDY PAWS</h1>
+          <h2>ADVENTURE GEAR</h2>
+          </div>
+        </div>
+        <!-- Top navigation bar -->
+        <div class="navigationBar">
+          <ul class="navigation">
+            <li class="active">
+            <a href="./Homepage.html">HOME</a>
+            </li>
+            <li>
+            <a href="./News.html">NEWS</a>
+            </li>
+            <li>
+            <a href="./Product.html">PRODUCT</a>
+            </li>
+            <li>
+            <a href="./Community.html">COMMUNITY</a>
+            </li>
+            <li>
+            <a href="./About.html">ABOUT</a>
+            </li> 
+            <li>
+            <a class="cart" href="./ShoppingCart.html">
+              <img src="icon/cart.png" alt="cart">
+              <span class="badge">0</span>
+            </a>
+            </li>
+            <li>
+            <button type="button" class="profile">
+              <img src="icon/profile.png" alt="profile"></button>
+            </li>
+          </ul>
+        </div>
+        <br/><br/>
+        <!-- Top search bar -->
+        <div class="search">
+          <input type="text" class="searchBar">
+          <button type="button" class="searchButton">
+          <img src="icon/search.png" alt="search"></button>
+        </div>
+        <br/><br/>
+      </div>
+    </div>
+    <!-- The container of the main items -->
+    <div class="container">
+      <h6>Product > Cat Gear > Cat Backpack</h6>
+      <!-- The big images of the product for previewing -->
+      <div class="imageDetail">
+        <div id="productSection" >
+          <div class="p-img">
+            <img id="headimg" width="450" alt="cat backpack1" src="./img/backpack1.png">
+          </div>
+          <!-- The small images of the product for previewing -->
+          <ul class="productsPreview">
+            <li><img height="130" alt="cat backpack2" src="./img/backpack2.png"></li>
+            <li><img width="130" alt="cat backpack2" src="./img/backpack3.png"></li>
+            <li><img width="130" alt="cat backpack3" src="./img/backpack4.png"></li>
+          </ul>
+        </div>
+      </div>
+      <!-- The container of the details -->
+      <section class="detail">
+        <div class="shop-item-detail" >
+          <span class="shop-item-title">Cat Backpack</span>
+          <span class="shop-item-price">$22</span>
+          <div class="shop-item-details">
+            <hr>
+            <!-- The container of the evaluation part -->
+            <div class="evaluation">
+              <h5>★★★★★</h5>
+            </div> 
+            <!-- The container of the operation buttons -->
+            <div class="operation">
+              <button type="button" class="cartButton">
+              <img src="icon/blueCart.png" alt="cart"></button>
+              <button type="button" class="likeButton">
+              <img src="icon/like.png" alt="like"></button>
+            </div>
+            <!-- The choices for selecting -->
+            <div class="selection">
+              <div class="size">
+                <label for="size">SIZE&ensp;</label>
+                <select name="size" id="size" onchange="show(this)" style="width:100px">
+                  <option value="large">Large</option>
+                  <option value="medium">Medium</option>
+                  <option value="small">Small</option>
+                </select>
+              </div>
+  
+              <div class="color">
+                <label for="color">COLOR&ensp;</label>
+                <select name="color" id="color" onchange="show(this)" style="width:100px">
+                  <option value="yellow">Yellow</option>
+                  <option value="orange">Orange</option>
+                  <option value="cyan">Cyan</option>
+                  <option value="red">Red</option>
+                  <option value="green">Green</option>
+  
+                </select>
+              </div>
+  
+              <div class="quantity">
+                <label for="quantity">QUANTITY&ensp;</label>
+                <input type="number" name="quantity" id="quantity" style="width:100px">
+              </div>
+              <br/>
+              <button type="button" class="buyButton">BUY</button>
+            </div>
+  
+            <h4>DESCRIPTION</h4>
+            <p>Simple and beautiful: panoramic transparent sunroof design space pet 
+            backpack, can show your love pets in 180 degrees, but also let your 
+            pets have a broader view, the big space pet bag is more free.
+            Made of high quality Oxford cloth food grade PC, scratch-resistant 
+            and durable. Exterior breathable hemispherical transparent cover helps
+            ease pet anxiety.<br/>
+            Note: There is a layer of protective film on the backpack, please tear
+            it off when you receive it.</p>
+          </div>
+        </div>
+      </section>
+
+      <br/><br/><br/><br/><br/><br/><hr><br/>
+
+      <!-- The container for recommendation -->
+      <div class="recommend">
+        <h3>You May Also Like</h3>
+        <ul class="recommendedProducts">
+          <li class="item">
+            <div class="wrap">
+              <!-- The image of the item -->
+              <div class="p-img">
+                <a href="./Detail.html">
+                  <img width="230" alt="cat Backpack" src="./img/catBackpack.png">
+                </a>
+              </div>
+              <!-- The title of the item -->
+              <div class="p-title">
+                <h4>Cat Backpack</h4>
+                <h4>★★★★★</h4>
+              </div>
+              <!-- The operation of the item -->
+              <div class="operation">
+                <button type="button" class="cartButton">
+                  <img src="icon/blueCart.png" alt="cart"></button>
+                <button type="button" class="likeButton">
+                  <img src="icon/like.png" alt="like"></button>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="wrap">
+              <div class="p-img">
+                <img width="230" alt="cat Harness" src="./img/catHarness.png">
+              </div>
+              <!-- The title of the item -->
+              <div class="p-title">
+                <h4>Cat Harness</h4>
+                <h4>★★★★★</h4>
+              </div>
+              <!-- The operation of the item -->
+              <div class="operation">
+                <button type="button" class="cartButton">
+                  <img src="icon/blueCart.png" alt="cart"></button>
+                <button type="button" class="likeButton">
+                  <img src="icon/like.png" alt="like"></button>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="wrap">
+              <!-- The image of the item -->
+              <div class="p-img">
+                <img width="230" alt="dog Harness" src="./img/dogHarness.png">
+              </div>
+              <!-- The title of the item -->
+              <div class="p-title">
+                <h4>Dog Harness</h4>
+                <h4>★★★☆☆</h4>
+              </div>
+              <!-- The operation of the item -->
+              <div class="operation">
+                <button type="button" class="cartButton">
+                  <img src="icon/blueCart.png" alt="cart"></button>
+                <button type="button" class="likeButton">
+                  <img src="icon/like.png" alt="like"></button>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="wrap">
+              <!-- The image of the item -->
+              <div class="p-img">
+                <img width="230" alt="dog GPS" src="./img/dogGps.png">
+              </div>
+              <!-- The title of the item -->
+              <div class="p-title">
+                <h4>Dog GPS</h4>
+                <h4>★★★★☆</h4>
+              </div>
+              <!-- The operation of the item -->
+              <div class="operation">
+                <button type="button" class="cartButton">
+                  <img src="icon/blueCart.png" alt="cart"></button>
+                <button type="button" class="likeButton">
+                  <img src="icon/like.png" alt="like"></button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
+
