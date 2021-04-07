@@ -1,0 +1,291 @@
+<!--
+	Reference of button tags: https://www.runoob.com/tags/tag-button.html
+	Code for displaying: https://www.jd.com/2017
+-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>MUDDY PAWS Products</title>
+<link rel="stylesheet" href="css/homepage.css">
+<!-- javascript -->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="other.js" async></script>
+</head>
+<body>
+<div class="header" style="background-color:#59697e;float:top;">
+  <div class="realHeader">
+    <div class="logo">
+      <div class="wrapLogo">
+        <h1>MUDDY PAWS</h1>
+        <h2>ADVENTURE GEAR</h2>
+      </div>
+    </div>
+    <!-- Top navigation bar -->
+    <div class="navigationBar">
+      <ul class="navigation">
+        <li class="active">
+          <a href="./index.html">HOME</a>
+        </li>
+        <li>
+          <a href="./News.html">NEWS</a>
+        </li>
+        <li>
+          <a href="./Product.html">PRODUCT</a>
+        </li>
+        <li>
+          <a href="./Community.html">COMMUNITY</a>
+        </li>
+        <li>
+          <a href="./About.html">ABOUT</a>
+        </li>
+        <li>
+          <a class="cart" href="./ShoppingCart.html">
+            <img src="icon/cart.png" alt="cart">
+            <span class="badge">0</span>
+          </a>
+        </li>
+        <li>
+          <button type="button" class="profile">
+            <img src="icon/profile.png" alt="profile"></button>
+        </li>
+      </ul>
+    </div>
+    <br /><br />
+    <!-- Top search bar -->
+    <div class="search">
+      <input type="text" class="searchBar">
+      <button type="button" class="searchButton">
+        <img src="icon/search.png" alt="search"></button>
+    </div>
+    <br /><br />
+  </div>
+</div>
+
+<!-- The container of the main items -->
+<div class="container">
+  <div class="row">
+    <h6>Product</h6>
+    <!-- The container of the product filter -->
+    <div class="filter">
+      <h4>Product category</h4>
+      <ul class="category">
+        <li>Cat Gear</li>
+        <li>Dog Gear</li>
+        <li>Harness</li>
+      </ul>
+      <hr>
+      <h4>User evaluation</h4>
+      <ul class="category">
+        <li>★★★★★ &up</li>
+        <li>★★★★☆ &up</li>
+        <li>★★★☆☆ &up</li>
+        <li>★★☆☆☆ &up</li>
+        <li>★☆☆☆☆ &up</li>
+      </ul>
+      <hr>
+      <h4>Price</h4>
+      <ul class="category">
+        <li>Cat Gear</li>
+        <li>Dog Gear</li>
+        <li>Harness</li>
+      </ul>
+    </div>
+    <!-- The container of the products -->
+    <div id="productSection" >
+      <ul class="products">
+        <!-- The product of cat backpack -->
+        <li class="item">
+        <div class="cart-row">
+        <div>
+        <a href="./Detail.html">
+        <img width="220" class="p-img" alt="catBackpack" src="./img/catBackpack.png">
+        </a>
+        </div>
+        <div class="p-title">
+          <div class="shop-item-detail">
+            <span class="shop-item-title">Cat Backpack</span>
+            <span class="shop-item-price">$22</span>
+            <h4>★★★★★</h4>
+          </div>
+        </div>
+        <div class="operation">
+        <button type="button" class="cartButton">
+        <img src="icon/blueCart.png" alt="cart"></button>
+        <button type="button" class="likeButton">
+        <img src="icon/like.png" alt="like"></button>
+        </div>
+        </div>
+        </li>
+        <!-- The product of cat harness -->
+        <li class="item" >
+        <div class="cart-row">
+        <div>
+        <img width="220" class="p-img" alt="catHarness" src="./img/catHarness.png">
+        </div>
+        <div class="p-title">
+          <div class="shop-item-detail">
+            <span class="shop-item-title">Cat Harness</span>
+            <span class="shop-item-price">$22</span>
+            <h4>★★★★★</h4>
+          </div>
+        </div>
+          <div class="operation">
+          <button type="button" class="cartButton">
+          <img src="icon/blueCart.png" alt="cart"></button>
+          <button type="button" class="likeButton">
+          <img src="icon/like.png" alt="like"></button>
+          </div>
+        </div>
+        </li>
+        <!-- The product of dog harness -->
+        <li class="item" >
+          <div class="cart-row">
+          <div>
+          <img width="220" class="p-img" alt="dogHarness" src="./img/dogHarness.png">
+          </div>
+          <div class="p-title">
+            <div class="shop-item-detail">
+              <span class="shop-item-title">Dog Harness</span>
+              <span class="shop-item-price">$32</span>
+              <h4>★★★☆☆</h4>
+            </div>
+          </div>
+          <div class="operation">
+          <button type="button" class="cartButton">
+          <img src="icon/blueCart.png" alt="cart"></button>
+          <button type="button" class="likeButton">
+          <img src="icon/like.png" alt="like"></button>
+          </div>
+          </div>
+        </li>
+        <!-- The product of dog GPS -->
+      <li class="item" >
+        <div class="cart-row">
+          <div>
+            <img width="220" class="p-img" alt="dogGps" src="./img/dogGps.png">
+          </div>
+          <div class="p-title">
+            <div class="shop-item-detail">
+              <span class="shop-item-title">Dog GPS</span>
+              <span class="shop-item-price">$42</span>
+              <h4>★★★★☆</h4>
+            </div>
+          </div>
+          <div class="operation">
+            <button type="button" class="cartButton">
+            <img src="icon/blueCart.png" alt="cart"></button>
+            <button type="button" class="likeButton">
+            <img src="icon/like.png" alt="like"></button>
+          </div>
+        </div>
+      </li>
+    </ul>
+    </div>
+  </div>
+  <br/><br/><br/><hr><br/>
+
+  <!-- The container for recommendation -->
+  <div class="recommend">
+    <h3>You May Also Like</h3>
+    <ul class="recommendedProducts">
+      <li class="item">
+        <div class="cart-row">
+          <!-- The image of the item -->
+          <div>
+            <a href="./Detail.html">
+              <img width="230" class="p-img" alt="cat Backpack" src="./img/catBackpack.png">
+            </a>
+          </div>
+          <!-- The title of the item -->
+          <div class="p-title">
+            <div class="shop-item-detail">
+              <span class="shop-item-title">Cat Backpack</span>
+              <span class="shop-item-price">$22</span>
+              <h4>★★★★★</h4>
+            </div>
+          </div>
+          <!-- The operation of the item -->
+          <div class="operation">
+            <button type="button" class="cartButton">
+              <img src="icon/blueCart.png" alt="cart"></button>
+            <button type="button" class="likeButton">
+              <img src="icon/like.png" alt="like"></button>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="cart-row">
+          <div>
+            <img width="230" class="p-img" alt="cat Harness" src="./img/catHarness.png">
+          </div>
+          <!-- The title of the item -->
+          <div class="p-title">
+            <div class="shop-item-detail">
+              <span class="shop-item-title">Cat Harness</span>
+              <span class="shop-item-price">$32</span>
+              <h4>★★★★★</h4>
+            </div>
+          </div>
+          <!-- The operation of the item -->
+          <div class="operation">
+            <button type="button" class="cartButton">
+              <img src="icon/blueCart.png" alt="cart"></button>
+            <button type="button" class="likeButton">
+              <img src="icon/like.png" alt="like"></button>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="cart-row">
+          <!-- The image of the item -->
+          <div>
+            <img width="230" class="p-img" alt="dog Harness" src="./img/dogHarness.png">
+          </div>
+          <!-- The title of the item -->
+          <div class="p-title">
+            <div class="shop-item-detail">
+              <span class="shop-item-title">Dog Harness</span>
+              <span class="shop-item-price">$32</span>
+              <h4>★★★☆☆</h4>
+            </div>
+          </div>
+          <!-- The operation of the item -->
+          <div class="operation">
+            <button type="button" class="cartButton">
+              <img src="icon/blueCart.png" alt="cart"></button>
+            <button type="button" class="likeButton">
+              <img src="icon/like.png" alt="like"></button>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="cart-row">
+          <!-- The image of the item -->
+          <div>
+            <img width="230" class="p-img" alt="dog GPS" src="./img/dogGps.png">
+          </div>
+          <!-- The title of the item -->
+          <div class="p-title">
+            <div class="shop-item-detail">
+              <span class="shop-item-title">Dog GPS</span>
+              <span class="shop-item-price">$42</span>
+              <h4>★★★★☆</h4>
+            </div>
+          </div>
+          <!-- The operation of the item -->
+          <div class="operation">
+            <button type="button" class="cartButton">
+              <img src="icon/blueCart.png" alt="cart"></button>
+            <button type="button" class="likeButton">
+              <img src="icon/like.png" alt="like"></button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,420 @@
+/* Style for displaying: https://www.runoob.com/tags/tag-button.html */
+/* Style of headers and labels */
+
+* {
+  font-family: "Baskerville";
+}
+h1,
+h2 {
+  line-height: 60%;
+  color: #fff;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 20px;
+}
+h3,
+h4,
+span {
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 0px;
+  font-family: "Baskerville";
+  color: #59697e;
+}
+
+label {
+  vertical-align: middle;
+  font-size: 15px;
+  font-weight: 900;
+  font-family: "Baskerville";
+  line-height: 30px;
+  color: #59697e;
+}
+
+h5 {
+  font-family: "Baskerville";
+  color: #59697e;
+  font-size: 30px;
+  line-height: 0;
+}
+
+h6 {
+  font-family: "Baskerville";
+  color: #59697e;
+  font-size: 15px;
+  font-style: italic;
+}
+
+/* Style of paragraphs */
+p {
+  font-family: "Baskerville";
+  font-size: 15px;
+  color: #59697e;
+}
+
+/* Style of text with links */
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Baskerville";
+}
+
+/* Style of all lists */
+ul {
+  list-style: none;
+}
+
+/* Style of the items of products preview */
+ul.productsPreview li {
+  display: inline-block;
+}
+
+/* Style of the items of navigation */
+ul.navigation li {
+  font-family: "Baskerville";
+  display: inline-block;
+  color: #fff;
+  padding-left: 10px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+/* Style of the list of recommended products */
+ul.recommendedProducts {
+  padding: 0px;
+}
+
+/* Style of the items of recommended products */
+ul.recommendedProducts li {
+  display: inline-block;
+}
+
+/* Style of the items of products */
+ul.products li {
+  font-family: "Baskerville";
+  display: inline-block;
+}
+
+/* Style of the items of category filter */
+ul.category li {
+  font-family: "Baskerville";
+  font-size: 20px;
+}
+
+/* Style of the list of category filter */
+ul.category {
+  font-family: "Baskerville";
+  color: #59697e;
+}
+
+/* Align the divisions of operation and evaluation to the middle */
+.operation,
+.evaluation {
+  vertical-align: middle;
+}
+/* Style of the class of selection */
+.selection {
+  text-align: center;
+  line-height: 40px;
+}
+
+/* Style of the class of search */
+.search {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+/* Style of the class of search buttons */
+.searchButton {
+  line-height: 0;
+  background-size: 40px 40px;
+  padding: 20px;
+  border: 0;
+  vertical-align: middle;
+  padding: 0;
+}
+
+/* Style of the class of search bars */
+.searchBar {
+  line-height: 0;
+  width: 450px;
+  height: 40px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style of the buttons of cart and profile in the navigation bar */
+.cart,
+.profile {
+  background-color: #59697e;
+  line-height: 0;
+  border: 0;
+  background-size: 30px 30px;
+  padding: 0;
+}
+
+/* Style of the buttons of cart and like in the products */
+.cartButton,
+.likeButton {
+  background-color: #fff;
+  line-height: 0;
+  border: 0;
+  padding: 3px;
+}
+
+/* Style of the logo in the header */
+.logo {
+  display: inline-block;
+  margin-left: 0;
+}
+
+/* Style of the navigation bar */
+.navigationBar {
+  display: inline-block;
+}
+
+/* Style of the logo and navigation bar */
+.logo,
+.navigationBar {
+  vertical-align: middle;
+}
+
+/* Style of the buy button in the detail page */
+.buyButton {
+  background-color: #dabb11;
+  width: 120px;
+  height: 50px;
+  border: 0px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Baskerville";
+}
+
+/* Style of the buy button in the detail page */
+.buyButtonCart {
+  background-color: #dabb11;
+  width: 250px;
+  height: 50px;
+  border: 0px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Baskerville";
+}
+
+/* Style of the product titles */
+.p-title {
+  padding-top: 15px;
+  line-height: 0;
+  width: 180px;
+  display: inline-block;
+}
+
+/* Style of the operation buttons in the products */
+.operation {
+  padding-bottom: 15px;
+
+  display: inline-block;
+  text-align: right;
+}
+
+/* Style of the class of title and button */
+.title,
+.button {
+  display: inline-block;
+}
+/* Style of the notification of shopping cart items */
+.cart {
+  position: relative;
+  display: inline-block;
+}
+.cart .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 11px 5px;
+  border-radius: 50%;
+  background: #dabb11;
+  font-family: "Baskerville";
+  color: white;
+}
+
+/* Style of the user evaluation */
+.evaluation {
+  width: 400px;
+  display: inline-block;
+}
+
+/* Style of the detail images and class of detail */
+.imageDetail,
+.detail {
+  vertical-align: top;
+}
+
+/* Style of the detail images */
+.imageDetail {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-right: 50px;
+  overflow: hidden;
+}
+
+/* Style of the detail images */
+.imageDetailCart {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-right: 50px;
+  overflow: hidden;
+  width: 500px;
+}
+/* Style of the class of detail */
+.detail {
+  display: inline-block;
+  margin-top: 0px;
+  width: 500px;
+  border-top: 0px;
+}
+
+/* Style of the class of delete button */
+.btn-remove {
+  background: #c42d28;
+  font-family: "Baskerville";
+  color: white;
+  border: 0px;
+  width: 80px;
+  height: 25px;
+}
+
+/* Style of the items in the shopping cart */
+.cart-item {
+  display: inline-block;
+  padding: 20px;
+}
+/* Style of the items */
+.item {
+  font-family: "Baskerville";
+  width: 260px;
+  text-align: center;
+}
+
+/* Style of the wrapping containers of products */
+.wrap {
+  display: inline-block;
+}
+
+/* Style of the slogan */
+.ask {
+  text-align: center;
+}
+
+/* Style of the slogan */
+.view {
+  font-family: "Baskerville";
+  font-size: 25px;
+  margin-right: 10px;
+  color: #dabb11;
+}
+
+/* Style of the filter in product page */
+.filter {
+  font-family: "Baskerville";
+  height: 600px;
+  width: 220px;
+  float: left;
+  margin-right: 50px;
+}
+
+/* Style of the container of row */
+.row {
+  width: 100%;
+  max-width: 1060px;
+  min-width: 755px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+/* Style of the container */
+.container {
+  width: 100%;
+  max-width: 1060px;
+  min-width: 755px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+/* Style of the container */
+.containerCart {
+  width: 100%;
+  max-width: 560px;
+  min-width: 455px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  overflow: hidden;
+}
+/* Style of the actual part of header */
+.realHeader {
+  width: 100%;
+  max-width: 1060px;
+  min-width: 755px;
+  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+/* Style of the container of logo */
+.wrapLogo {
+  text-align: right;
+}
+
+/* Style of the image on the homepage */
+.catHomepage {
+  width: 100%;
+}
+
+/* Styles of the product details on the detail page */
+.p-img {
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.containerCart {
+  text-align: center;
+  width: 700px;
+}
+.detailCart {
+  width: 400px;
+  text-align: center;
+}
+.containerCart,
+.detailCart {
+  display: inline-block;
+  vertical-align: top;
+}
+.productSectionCart {
+  width: 100%;
+  max-width: 860px;
+  min-width: 55px;
+}
