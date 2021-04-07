@@ -31,6 +31,10 @@ function ready() {
 
 //Function for purchasing items.
 function purchaseClicked() {
+  if (localStorage.length == 0) {
+    alert('There are no items in your shopping cart!');
+    return;
+  }
   var cartItems = document.getElementsByClassName('containerCart')[0];
   while (cartItems.hasChildNodes()) {
       cartItems.removeChild(cartItems.firstChild);
@@ -38,10 +42,7 @@ function purchaseClicked() {
   localStorage.clear();
   updateCartTotal();
   updateBadgeItem();
-  if (localStorage.length == 0) {
-    alert('There are no items in your shopping cart!');
-    return;
-  }
+  
   alert('Thank you for your purchase!');
 }
 
